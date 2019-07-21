@@ -52,7 +52,7 @@ IMG_INFERNECE = 0
 N_SHAPES = 7
 N_COLORS = 6
 
-DEBUG = 0
+DEBUG = 1
 
 def morphOpen(image):
     # define structuring element
