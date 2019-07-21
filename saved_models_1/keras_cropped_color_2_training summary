@@ -1,0 +1,86 @@
+##########    LOADING DATA     ##########
+##########    Blue , Label : 4      ##########
+##########    Orange , Label : 2      ##########
+##########    Green , Label : 1      ##########
+##########    Yellow , Label : 0      ##########
+##########    Purple , Label : 5      ##########
+##########    Red , Label : 3      ##########
+x_train shape: (2362, 32, 32, 3)
+2362 train samples
+1013 test samples
+Using real-time data augmentation.
+Epoch 1/30
+2018-12-03 22:07:31.220632: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-12-03 22:07:31.316568: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-12-03 22:07:31.317033: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties:
+name: GeForce GTX 1060 major: 6 minor: 1 memoryClockRate(GHz): 1.733
+pciBusID: 0000:01:00.0
+totalMemory: 5.94GiB freeMemory: 5.57GiB
+2018-12-03 22:07:31.317062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-12-03 22:07:31.526429: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 22:07:31.526479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0
+2018-12-03 22:07:31.526486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N
+2018-12-03 22:07:31.526702: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5343 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0, compute capability: 6.1)
+74/74 [==============================] - 2s 33ms/step - loss: 0.8106 - acc: 0.7117 - val_loss: 0.2848 - val_acc: 0.9102
+Epoch 2/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.3076 - acc: 0.8843 - val_loss: 0.2059 - val_acc: 0.9230
+Epoch 3/30
+74/74 [==============================] - 1s 16ms/step - loss: 0.2487 - acc: 0.9028 - val_loss: 0.1719 - val_acc: 0.9388
+Epoch 4/30
+74/74 [==============================] - 1s 16ms/step - loss: 0.2015 - acc: 0.9220 - val_loss: 0.1491 - val_acc: 0.9398
+Epoch 5/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.1728 - acc: 0.9302 - val_loss: 0.1318 - val_acc: 0.9526
+Epoch 6/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.1574 - acc: 0.9408 - val_loss: 0.1765 - val_acc: 0.9250
+Epoch 7/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.1450 - acc: 0.9421 - val_loss: 0.0921 - val_acc: 0.9615
+Epoch 8/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.1360 - acc: 0.9530 - val_loss: 0.0856 - val_acc: 0.9645
+Epoch 9/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.1254 - acc: 0.9543 - val_loss: 0.1108 - val_acc: 0.9566
+Epoch 10/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.1157 - acc: 0.9534 - val_loss: 0.0929 - val_acc: 0.9645
+Epoch 11/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.1120 - acc: 0.9609 - val_loss: 0.0797 - val_acc: 0.9674
+Epoch 12/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.1087 - acc: 0.9581 - val_loss: 0.0959 - val_acc: 0.9645
+Epoch 13/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0953 - acc: 0.9649 - val_loss: 0.0755 - val_acc: 0.9743
+Epoch 14/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0850 - acc: 0.9661 - val_loss: 0.0583 - val_acc: 0.9724
+Epoch 15/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0850 - acc: 0.9682 - val_loss: 0.0627 - val_acc: 0.9645
+Epoch 16/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0907 - acc: 0.9686 - val_loss: 0.0761 - val_acc: 0.9704
+Epoch 17/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0899 - acc: 0.9648 - val_loss: 0.0548 - val_acc: 0.9773
+Epoch 18/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0816 - acc: 0.9703 - val_loss: 0.0718 - val_acc: 0.9704
+Epoch 19/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0795 - acc: 0.9695 - val_loss: 0.0690 - val_acc: 0.9724
+Epoch 20/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0770 - acc: 0.9721 - val_loss: 0.0548 - val_acc: 0.9743
+Epoch 21/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0725 - acc: 0.9721 - val_loss: 0.0457 - val_acc: 0.9812
+Epoch 22/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0699 - acc: 0.9768 - val_loss: 0.0445 - val_acc: 0.9783
+Epoch 23/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0677 - acc: 0.9751 - val_loss: 0.0470 - val_acc: 0.9842
+Epoch 24/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0703 - acc: 0.9733 - val_loss: 0.0547 - val_acc: 0.9763
+Epoch 25/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0599 - acc: 0.9788 - val_loss: 0.0755 - val_acc: 0.9812
+Epoch 26/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0594 - acc: 0.9762 - val_loss: 0.0422 - val_acc: 0.9822
+Epoch 27/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0600 - acc: 0.9766 - val_loss: 0.0486 - val_acc: 0.9812
+Epoch 28/30
+74/74 [==============================] - 1s 14ms/step - loss: 0.0540 - acc: 0.9822 - val_loss: 0.0331 - val_acc: 0.9862
+Epoch 29/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0534 - acc: 0.9776 - val_loss: 0.0382 - val_acc: 0.9852
+Epoch 30/30
+74/74 [==============================] - 1s 15ms/step - loss: 0.0579 - acc: 0.9788 - val_loss: 0.0302 - val_acc: 0.9882
+Saved trained model at /home/driverless/ras_perception/DL_training/KERAS_model/saved_models/keras_cropped_color_2.h5
+1013/1013 [==============================] - 0s 66us/step
+Test loss: 0.030150337701871154
+Test accuracy: 0.9881539980256664
