@@ -22,9 +22,9 @@ Autonomous Exploration             |  What Robot sees during Exploration
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/khB9kPSdTlk/0.jpg)](https://youtu.be/khB9kPSdTlk)  |  [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/7GNrhhASpx8/0.jpg)](https://youtu.be/7GNrhhASpx8)
 
 ## Contributors: 
-- Viktor Tuul (https://www.linkedin.com/in/viktor-tu...)
-- Shuo Zheng (https://www.linkedin.com/in/shuo-zheng)
-- David Villagra (https://www.linkedin.com/in/davidvill...)
-- Ajinkya Khoche (https://www.linkedin.com/in/ajinkyakh...)
+- [Viktor Tuul](https://www.linkedin.com/in/viktor-tuul-827ab7162/)
+- [Shuo Zheng](https://www.linkedin.com/in/shuo-zheng)
+- [David Villagra](https://www.linkedin.com/in/davidvillagra/)
+- [Ajinkya Khoche](https://www.linkedin.com/in/ajinkyakhoche/)
 
 
