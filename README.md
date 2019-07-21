@@ -38,4 +38,8 @@ Obstacle detection             |  Object Detection v/s Obstacle detection
 :-------------------------:|:-------------------------:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/H6HnhnuMGn4/0.jpg)](https://youtu.be/H6HnhnuMGn4)  |  [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6hN6UD0YFjo/0.jpg)](https://youtu.be/6hN6UD0YFjo)
 
-## [Robotics Project Course Submission](./Robotics-Project-Videos.md)
+## Bonus
+For more information/videos on our submission for the Robotics Project course, see [Robotics-Project-Info.md](./Robotics-Project-Info.md)
+
+## License
+MIT License
