@@ -11,7 +11,7 @@ There are two ways to go about it. One can either use traditional image analysis
 The key is to breakdown the problem of object detection into object localization and image classification (which many deep learning methods like R-CNN do). Using traditional image analysis, the algorithm can generate many regions of interest, which can be fed to an image recognition network for accurate detection. Moreover, we used separate CNN for color and shape detection for increased robustness. The pipeline is shown below:
 
 <p align="center">
-<img src="./docs/pipeline.png" width="270" height="480">
+<img src="./docs/pipeline.png" width="900" height="300">
 </p>
 
 ## Steps
@@ -30,15 +30,14 @@ Object detection on Robot             |
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/kYFFCXGbXrY/0.jpg)](https://youtu.be/kYFFCXGbXrY)  |
 
 
-
-## Bonus Videos
-1. In addition to valuable objects, the perception system also needed to detect obstacles (grey batteries) and avoid them. The following videos demonstrate the logic behind obstacle detection algorithm. A side-by-side comparison to object detection is also shown to prove robustness.
+## Bonus: Obstacle Detection
+In addition to valuable objects, the perception system also needed to detect obstacles (grey batteries) and avoid them. The following videos demonstrate the logic behind obstacle detection algorithm. A side-by-side comparison to object detection is also shown to prove robustness.
 
 Obstacle detection             |  Object Detection v/s Obstacle detection
 :-------------------------:|:-------------------------:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/H6HnhnuMGn4/0.jpg)](https://youtu.be/H6HnhnuMGn4)  |  [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6hN6UD0YFjo/0.jpg)](https://youtu.be/6hN6UD0YFjo)
 
-## Bonus
+## Robotics Project Course Submission
 For more information/videos on our submission for the Robotics Project course, see [Robotics-Project-Info.md](./Robotics-Project-Info.md)
 
 ## License
