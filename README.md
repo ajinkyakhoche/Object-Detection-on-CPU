@@ -5,10 +5,10 @@ This work covers the perception pipeline of our submission for the Robotics and 
 <img src="./docs/ras_objects.jpg" width="400" height="300">
 </p>
 
-There are two ways to go about it. One can either use traditional image analysis (like thresholding, morphing, contour detection etc.). Although the approach sounds good on paper, it will never generalize well and be free of outliers. The thresholding parameters may change with the lighting. The shape detection (for instance between a *cube* and a *hollow cube*) and is non-trivial. Another approach is training a neural network. We started by looking at the excellent fork of yolov2 by [AlexeyAB](https://github.com/AlexeyAB/yolo2_light). We observed that even the lightest object detector network gave a measely 0.2 FPS with poor detection accuracy. 
+There are two ways to go about it. One can either use traditional image analysis (like thresholding, morphing, contour detection etc.). Although the approach sounds good on paper, it will never generalize well and be free of outliers. The thresholding parameters may change with the lighting. The shape detection (for instance between a *cube* and a *hollow cube*) is non-trivial. Another approach is training a neural network/ machine learning model. We started by looking at the excellent fork of yolov2 by [AlexeyAB](https://github.com/AlexeyAB/yolo2_light). It was observed that even the lightest object detector network gave a measely 0.2 FPS with poor detection accuracy on a CPU. 
 
 ## Approach
-The key is to breakdown the problem of object detection into object localization and image classification (which many deep learning methods like R-CNN do). Using traditional image analysis, the algorithm can generate many regions of interest, which can be fed to an image recognition network for accurate detection. Moreover, we used separate CNN for color and shape detection for increased robustness. The pipeline is shown below:
+The key is to breakdown the problem of object detection into object localization and image classification (which many deep learning methods like R-CNN do). Using traditional image analysis, the algorithm can generate many regions of interest, which can be fed to an image recognition network for accurate detection. Moreover, a separate CNN was used for color and shape detection for increased robustness. The pipeline is shown below:
 
 <p align="center">
 <img src="./docs/pipeline.png" width="900" height="300">
